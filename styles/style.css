@@ -21,7 +21,8 @@ body {
   width: 790px;
   height: 697px;
 
-  background: url("../images/bg.png") no-repeat;
+  background-image: url("../images/catalog-background.png");
+  background-repeat: no-repeat;
   background-size: contain;
 
   z-index: -1;
