@@ -26,7 +26,7 @@ body {
   z-index: -1;
   width: 790px;
   height: 697px;
-  background-image: url("../images/catalog_background.png");
+  background-image: url("../images/dandelions.png");
   background-repeat: no-repeat;
   background-size: contain;
   pointer-events: none;
@@ -146,4 +146,37 @@ body {
   font-size: 20px;
   font-weight: 400;
   line-height: 24px;
+}
+
+.products__controls {
+  max-width: 1110px;
+  margin: 0 auto 60px;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 12px;
+}
+
+.products__button {
+  padding: 12px 20px;
+  border: 1px solid #515076;
+  border-radius: 6px;
+  font-family: inherit;
+  font-size: 14px;
+  color: #ffffff;
+  background-color: #515076;
+  cursor: pointer;
+  transition: color 1s;
+  background-color: 1s;
+}
+
+.products__button:hover {
+  color: #515076;
+  background-color: #ffffff;
+}
+
+.products__button.toggle-button_active {
+  border-color: #bdb7bd;
+  color: #ffffff;
+  background-color: #bdb7bd;
 }
