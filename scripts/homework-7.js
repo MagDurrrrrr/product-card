@@ -1,4 +1,4 @@
-const speedOfLight = 299792458;
+const SPEED_OF_LIGHT = 299792458;
 const productName = "Samsung Galaxy S27 Ultra";
 const productPrice = 1200;
 const serverName = "google-dns";
@@ -13,9 +13,9 @@ function showCurrentTemperature(city, temperature) {
 showCurrentTemperature("Махачкале", 35);
 
 function checkSpeed(speed) {
-  if (speed > speedOfLight) {
+  if (speed > SPEED_OF_LIGHT) {
     console.log("Сверхсветовая скорость");
-  } else if (speed < speedOfLight) {
+  } else if (speed < SPEED_OF_LIGHT) {
     console.log("Субсветовая скорость");
   } else {
     console.log("Скорость света");
