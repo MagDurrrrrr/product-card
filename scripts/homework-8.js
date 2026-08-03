@@ -119,7 +119,7 @@ const allBooks = [...books, ...stephenKingBooks];
 console.log(allBooks);
 
 // Задание №10. Добавление свойства isRare
-function addRarityProperty(booksArray) {
+function getBooksWithRarity(booksArray) {
   return booksArray.map(function (book) {
     return {
       ...book,
@@ -127,5 +127,5 @@ function addRarityProperty(booksArray) {
     };
   });
 }
-const booksWithRare = addRarityProperty(allBooks);
+const booksWithRare = getBooksWithRarity(allBooks);
 console.log(booksWithRare);
